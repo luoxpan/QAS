@@ -74,32 +74,32 @@ page_main = Page(MAIN_CHECK)
 
 # SUMMON 召唤
 page_summon = Page(SUMMON_CHECK)
-page_summon.link(GOTO_MAIN, destination=page_main)
+page_summon.link(ANY_BACKTO_MAIN, destination=page_main)
 page_main.link(MAIN_GOTO_SUMMON, destination=page_summon)
 
 # WITCHES 魔女
 page_witches= Page(WITCHES_CHECK)
-page_witches.link(GOTO_MAIN, destination=page_main)
+page_witches.link(ANY_BACKTO_MAIN, destination=page_main)
 page_main.link(MAIN_GOTO_WITCHES, destination=page_witches)
 
 # STARTRACE 星痕
 page_startrace = Page(STARTRACE_CHECK)
-page_startrace.link(GOTO_MAIN, destination=page_main)
+page_startrace.link(ANY_BACKTO_MAIN, destination=page_main)
 page_main.link(MAIN_GOTO_STARTRACE, destination=page_startrace)
 
 # WEAPONRY 唤物
 page_weaponry = Page(WEAPONRY_CHECK)
-page_weaponry.link(GOTO_MAIN, destination=page_main)
+page_weaponry.link(ANY_BACKTO_MAIN, destination=page_main)
 page_main.link(MAIN_GOTO_WEAPONRY, destination=page_weaponry)
 
 # DIVISION 神谕司
 page_division = Page(DIVISION_CHECK)
-page_division.link(GOTO_MAIN, destination=page_main)
+page_division.link(ANY_BACKTO_MAIN, destination=page_main)
 page_main.link(MAIN_GOTO_DIVISION, destination=page_division)
 
 # BATTLE 战斗
 page_battle = Page(BATTLE_CHECK)
-page_battle.link(GOTO_MAIN, destination=page_main)
+page_battle.link(ANY_BACKTO_MAIN, destination=page_main)
 page_main.link(MAIN_GOTO_BATTLE, destination=page_battle)
 
 # POWER 星魂力
@@ -109,37 +109,37 @@ page_main.link(MAIN_GOTO_POWER, destination=page_power)
 
 # TASK 任务
 page_tasks = Page(TASKS_CHECK)
-page_tasks.link(GOTO_MAIN, destination=page_main)
+page_tasks.link(ANY_BACKTO_MAIN, destination=page_main)
 page_main.link(MAIN_GOTO_TASKS, destination=page_tasks)
 
 # EVENT 活动
 page_event = Page(EVENT_CHECK)
-page_event.link(GOTO_MAIN, destination=page_main)
+page_event.link(ANY_BACKTO_MAIN, destination=page_main)
 page_main.link(MAIN_GOTO_EVENT, destination=page_event)
 
 # DICE 骰子
 page_dice = Page(DICE_CHECK)
-page_dice.link(GOTO_MAIN, destination=page_main)
+page_dice.link(ANY_BACKTO_MAIN, destination=page_main)
 page_main.link(MAIN_GOTO_DICE, destination=page_dice)
 
 # MAIL 邮件
 page_mail = Page(MAIL_CHECK)
-page_mail.link(GOTO_MAIN, destination=page_main)
+page_mail.link(ANY_BACKTO_MAIN, destination=page_main)
 page_main.link(MAIN_GOTO_MAIL, destination=page_mail)
 
 # REPOSITORY 仓库
 page_repository = Page(REPOSITORY_CHECK)
-page_repository.link(GOTO_MAIN, destination=page_main)
+page_repository.link(ANY_BACKTO_MAIN, destination=page_main)
 page_main.link(MAIN_GOTO_REPOSITORY, destination=page_repository)
 
 # MEDAL 勋章
 page_medal = Page(MEDAL_CHECK)
-page_medal.link(GOTO_MAIN, destination=page_main)
+page_medal.link(ANY_BACKTO_MAIN, destination=page_main)
 page_main.link(MAIN_GOTO_MEDAL, destination=page_medal)
 
 # ARCHIVES 档案
 page_archives = Page(ARCHIVES_CHECK)
-page_archives.link(GOTO_MAIN, destination=page_main)
+page_archives.link(ANY_BACKTO_MAIN, destination=page_main)
 page_main.link(MAIN_GOTO_ARCHIVES, destination=page_archives)
 
 # Menu, entered from phone

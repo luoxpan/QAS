@@ -3,6 +3,26 @@ from module.base.button import Button, ButtonWrapper
 # This file was auto-generated, do not modify it manually. To generate:
 # ``` python -m dev_tools.button_extract ```
 
+ANY_BACKTO_MAIN = ButtonWrapper(
+    name='ANY_BACKTO_MAIN',
+    share=Button(
+        file='./assets/share/base/page/ANY_BACKTO_MAIN.png',
+        area=(131, 15, 209, 50),
+        search=(111, 0, 229, 70),
+        color=(53, 53, 53),
+        button=(131, 15, 209, 50),
+    ),
+)
+ARCHIVES_CHECK = ButtonWrapper(
+    name='ARCHIVES_CHECK',
+    share=Button(
+        file='./assets/share/base/page/ARCHIVES_CHECK.png',
+        area=(244, 627, 278, 655),
+        search=(224, 607, 298, 675),
+        color=(201, 201, 201),
+        button=(244, 627, 278, 655),
+    ),
+)
 ASSIGNMENT_CHECK = ButtonWrapper(
     name='ASSIGNMENT_CHECK',
     cn=Button(
@@ -28,6 +48,16 @@ BACK = ButtonWrapper(
         search=(1197, 1, 1268, 71),
         color=(56, 59, 71),
         button=(1217, 21, 1248, 51),
+    ),
+)
+BATTLE_CHECK = ButtonWrapper(
+    name='BATTLE_CHECK',
+    share=Button(
+        file='./assets/share/base/page/BATTLE_CHECK.png',
+        area=(1101, 587, 1158, 616),
+        search=(1081, 567, 1178, 636),
+        color=(101, 101, 102),
+        button=(1101, 587, 1158, 616),
     ),
 )
 BATTLE_PASS_CHECK = ButtonWrapper(
@@ -70,14 +100,44 @@ CLOSE = ButtonWrapper(
         button=(1222, 25, 1252, 55),
     ),
 )
+DICE = ButtonWrapper(
+    name='DICE',
+    share=Button(
+        file='./assets/share/base/page/DICE.png',
+        area=(52, 595, 374, 672),
+        search=(32, 575, 394, 692),
+        color=(112, 120, 130),
+        button=(52, 595, 374, 672),
+    ),
+)
+DICE_CHECK = ButtonWrapper(
+    name='DICE_CHECK',
+    share=Button(
+        file='./assets/share/base/page/DICE_CHECK.png',
+        area=(52, 595, 374, 672),
+        search=(32, 575, 394, 692),
+        color=(112, 120, 130),
+        button=(52, 595, 374, 672),
+    ),
+)
+DIVISION_CHECK = ButtonWrapper(
+    name='DIVISION_CHECK',
+    share=Button(
+        file='./assets/share/base/page/DIVISION_CHECK.png',
+        area=(27, 629, 85, 672),
+        search=(7, 609, 105, 692),
+        color=(34, 35, 35),
+        button=(27, 629, 85, 672),
+    ),
+)
 EVENT_CHECK = ButtonWrapper(
     name='EVENT_CHECK',
     share=Button(
         file='./assets/share/base/page/EVENT_CHECK.png',
-        area=(39, 19, 75, 56),
-        search=(19, 0, 95, 76),
-        color=(133, 125, 103),
-        button=(39, 19, 75, 56),
+        area=(24, 121, 30, 160),
+        search=(4, 101, 50, 180),
+        color=(162, 161, 162),
+        button=(24, 121, 30, 160),
     ),
 )
 FORGOTTEN_HALL_CHECK = ButtonWrapper(
@@ -139,6 +199,46 @@ ITEM_CHECK = ButtonWrapper(
         button=(43, 23, 72, 54),
     ),
 )
+MAIL_CHECK = ButtonWrapper(
+    name='MAIL_CHECK',
+    share=Button(
+        file='./assets/share/base/page/MAIL_CHECK.png',
+        area=(199, 599, 257, 635),
+        search=(179, 579, 277, 655),
+        color=(56, 96, 127),
+        button=(199, 599, 257, 635),
+    ),
+)
+MAIN_CHECK = ButtonWrapper(
+    name='MAIN_CHECK',
+    share=Button(
+        file='./assets/share/base/page/MAIN_CHECK.png',
+        area=(0, 0, 1280, 720),
+        search=(0, 0, 1280, 720),
+        color=(133, 113, 112),
+        button=(0, 0, 1280, 720),
+    ),
+)
+MAIN_GOTO_ARCHIVES = ButtonWrapper(
+    name='MAIN_GOTO_ARCHIVES',
+    share=Button(
+        file='./assets/share/base/page/MAIN_GOTO_ARCHIVES.png',
+        area=(243, 408, 277, 438),
+        search=(223, 388, 297, 458),
+        color=(93, 89, 89),
+        button=(243, 408, 277, 438),
+    ),
+)
+MAIN_GOTO_BATTLE = ButtonWrapper(
+    name='MAIN_GOTO_BATTLE',
+    share=Button(
+        file='./assets/share/base/page/MAIN_GOTO_BATTLE.png',
+        area=(1093, 554, 1165, 627),
+        search=(1073, 534, 1185, 647),
+        color=(107, 110, 113),
+        button=(1093, 554, 1165, 627),
+    ),
+)
 MAIN_GOTO_BATTLE_PASS = ButtonWrapper(
     name='MAIN_GOTO_BATTLE_PASS',
     share=Button(
@@ -168,14 +268,34 @@ MAIN_GOTO_CHARACTER = ButtonWrapper(
         ),
     ],
 )
+MAIN_GOTO_DICE = ButtonWrapper(
+    name='MAIN_GOTO_DICE',
+    share=Button(
+        file='./assets/share/base/page/MAIN_GOTO_DICE.png',
+        area=(34, 254, 58, 285),
+        search=(14, 234, 78, 305),
+        color=(150, 147, 147),
+        button=(34, 254, 58, 285),
+    ),
+)
+MAIN_GOTO_DIVISION = ButtonWrapper(
+    name='MAIN_GOTO_DIVISION',
+    share=Button(
+        file='./assets/share/base/page/MAIN_GOTO_DIVISION.png',
+        area=(791, 607, 823, 662),
+        search=(771, 587, 843, 682),
+        color=(87, 87, 87),
+        button=(791, 607, 823, 662),
+    ),
+)
 MAIN_GOTO_EVENT = ButtonWrapper(
     name='MAIN_GOTO_EVENT',
     share=Button(
         file='./assets/share/base/page/MAIN_GOTO_EVENT.png',
-        area=(786, 33, 814, 56),
-        search=(766, 13, 834, 76),
-        color=(185, 184, 183),
-        button=(786, 33, 814, 56),
+        area=(40, 187, 59, 225),
+        search=(20, 167, 79, 245),
+        color=(189, 188, 188),
+        button=(40, 187, 59, 225),
     ),
 )
 MAIN_GOTO_GACHA = ButtonWrapper(
@@ -208,6 +328,16 @@ MAIN_GOTO_ITEM = ButtonWrapper(
         button=(1064, 35, 1098, 59),
     ),
 )
+MAIN_GOTO_MAIL = ButtonWrapper(
+    name='MAIN_GOTO_MAIL',
+    share=Button(
+        file='./assets/share/base/page/MAIN_GOTO_MAIL.png',
+        area=(38, 316, 61, 352),
+        search=(18, 296, 81, 372),
+        color=(199, 198, 197),
+        button=(38, 316, 61, 352),
+    ),
+)
 MAIN_GOTO_MAP = ButtonWrapper(
     name='MAIN_GOTO_MAP',
     share=Button(
@@ -216,6 +346,16 @@ MAIN_GOTO_MAP = ButtonWrapper(
         search=(50, 58, 186, 194),
         color=(91, 105, 119),
         button=(70, 78, 166, 174),
+    ),
+)
+MAIN_GOTO_MEDAL = ButtonWrapper(
+    name='MAIN_GOTO_MEDAL',
+    share=Button(
+        file='./assets/share/base/page/MAIN_GOTO_MEDAL.png',
+        area=(135, 408, 168, 439),
+        search=(115, 388, 188, 459),
+        color=(73, 68, 68),
+        button=(135, 408, 168, 439),
     ),
 )
 MAIN_GOTO_MENU = ButtonWrapper(
@@ -248,6 +388,66 @@ MAIN_GOTO_MISSION = ButtonWrapper(
         button=(21, 199, 51, 221),
     ),
 )
+MAIN_GOTO_POWER = ButtonWrapper(
+    name='MAIN_GOTO_POWER',
+    share=Button(
+        file='./assets/share/base/page/MAIN_GOTO_POWER.png',
+        area=(0, 0, 1280, 720),
+        search=(0, 0, 1280, 720),
+        color=(134, 114, 114),
+        button=(0, 0, 1280, 720),
+    ),
+)
+MAIN_GOTO_REPOSITORY = ButtonWrapper(
+    name='MAIN_GOTO_REPOSITORY',
+    share=Button(
+        file='./assets/share/base/page/MAIN_GOTO_REPOSITORY.png',
+        area=(26, 407, 60, 438),
+        search=(6, 387, 80, 458),
+        color=(75, 75, 76),
+        button=(26, 407, 60, 438),
+    ),
+)
+MAIN_GOTO_STARTRACE = ButtonWrapper(
+    name='MAIN_GOTO_STARTRACE',
+    share=Button(
+        file='./assets/share/base/page/MAIN_GOTO_STARTRACE.png',
+        area=(345, 617, 380, 657),
+        search=(325, 597, 400, 677),
+        color=(86, 88, 91),
+        button=(345, 617, 380, 657),
+    ),
+)
+MAIN_GOTO_STORE = ButtonWrapper(
+    name='MAIN_GOTO_STORE',
+    share=Button(
+        file='./assets/share/base/page/MAIN_GOTO_STORE.png',
+        area=(933, 607, 971, 658),
+        search=(913, 587, 991, 678),
+        color=(94, 97, 100),
+        button=(933, 607, 971, 658),
+    ),
+)
+MAIN_GOTO_SUMMON = ButtonWrapper(
+    name='MAIN_GOTO_SUMMON',
+    share=Button(
+        file='./assets/share/base/page/MAIN_GOTO_SUMMON.png',
+        area=(55, 612, 87, 653),
+        search=(35, 592, 107, 673),
+        color=(119, 117, 108),
+        button=(55, 612, 87, 653),
+    ),
+)
+MAIN_GOTO_TASKS = ButtonWrapper(
+    name='MAIN_GOTO_TASKS',
+    share=Button(
+        file='./assets/share/base/page/MAIN_GOTO_TASKS.png',
+        area=(43, 127, 59, 161),
+        search=(23, 107, 79, 181),
+        color=(149, 145, 146),
+        button=(43, 127, 59, 161),
+    ),
+)
 MAIN_GOTO_TEAM = ButtonWrapper(
     name='MAIN_GOTO_TEAM',
     share=Button(
@@ -266,6 +466,26 @@ MAIN_GOTO_TUTORIAL = ButtonWrapper(
         search=(175, 38, 227, 102),
         color=(127, 131, 139),
         button=(195, 58, 207, 82),
+    ),
+)
+MAIN_GOTO_WEAPONRY = ButtonWrapper(
+    name='MAIN_GOTO_WEAPONRY',
+    share=Button(
+        file='./assets/share/base/page/MAIN_GOTO_WEAPONRY.png',
+        area=(490, 611, 529, 655),
+        search=(470, 591, 549, 675),
+        color=(77, 82, 86),
+        button=(490, 611, 529, 655),
+    ),
+)
+MAIN_GOTO_WITCHES = ButtonWrapper(
+    name='MAIN_GOTO_WITCHES',
+    share=Button(
+        file='./assets/share/base/page/MAIN_GOTO_WITCHES.png',
+        area=(200, 609, 230, 655),
+        search=(180, 589, 250, 675),
+        color=(82, 85, 88),
+        button=(200, 609, 230, 655),
     ),
 )
 MAP_CHECK = ButtonWrapper(
@@ -305,6 +525,16 @@ MAP_GOTO_WORLD = ButtonWrapper(
         search=(876, 60, 1245, 136),
         color=(132, 132, 132),
         button=(896, 80, 1225, 116),
+    ),
+)
+MEDAL_CHECK = ButtonWrapper(
+    name='MEDAL_CHECK',
+    share=Button(
+        file='./assets/share/base/page/MEDAL_CHECK.png',
+        area=(629, 636, 651, 660),
+        search=(609, 616, 671, 680),
+        color=(167, 163, 161),
+        button=(629, 636, 651, 660),
     ),
 )
 MENU_CHECK = ButtonWrapper(
@@ -387,6 +617,36 @@ PLANNER_CHECK = ButtonWrapper(
         button=(39, 47, 74, 74),
     ),
 )
+POWER_CANCEL = ButtonWrapper(
+    name='POWER_CANCEL',
+    share=Button(
+        file='./assets/share/base/page/POWER_CANCEL.png',
+        area=(356, 486, 534, 521),
+        search=(336, 466, 554, 541),
+        color=(110, 27, 46),
+        button=(356, 486, 534, 521),
+    ),
+)
+POWER_CHECK = ButtonWrapper(
+    name='POWER_CHECK',
+    share=Button(
+        file='./assets/share/base/page/POWER_CHECK.png',
+        area=(551, 358, 598, 402),
+        search=(531, 338, 618, 422),
+        color=(145, 145, 145),
+        button=(551, 358, 598, 402),
+    ),
+)
+REPOSITORY_CHECK = ButtonWrapper(
+    name='REPOSITORY_CHECK',
+    share=Button(
+        file='./assets/share/base/page/REPOSITORY_CHECK.png',
+        area=(891, 24, 912, 44),
+        search=(871, 4, 932, 64),
+        color=(32, 79, 85),
+        button=(891, 24, 912, 44),
+    ),
+)
 ROGUE_CHECK = ButtonWrapper(
     name='ROGUE_CHECK',
     share=Button(
@@ -397,6 +657,26 @@ ROGUE_CHECK = ButtonWrapper(
         button=(39, 17, 76, 51),
     ),
 )
+STARTRACE_CHECK = ButtonWrapper(
+    name='STARTRACE_CHECK',
+    share=Button(
+        file='./assets/share/base/page/STARTRACE_CHECK.png',
+        area=(1193, 23, 1249, 70),
+        search=(1173, 3, 1269, 90),
+        color=(61, 62, 62),
+        button=(1193, 23, 1249, 70),
+    ),
+)
+SUMMON_CHECK = ButtonWrapper(
+    name='SUMMON_CHECK',
+    share=Button(
+        file='./assets/share/base/page/SUMMON_CHECK.png',
+        area=(1163, 629, 1240, 657),
+        search=(1143, 609, 1260, 677),
+        color=(79, 74, 75),
+        button=(1163, 629, 1240, 657),
+    ),
+)
 SYNTHESIZE_CHECK = ButtonWrapper(
     name='SYNTHESIZE_CHECK',
     share=Button(
@@ -405,6 +685,16 @@ SYNTHESIZE_CHECK = ButtonWrapper(
         search=(19, 3, 95, 72),
         color=(109, 101, 89),
         button=(39, 23, 75, 52),
+    ),
+)
+TASKS_CHECK = ButtonWrapper(
+    name='TASKS_CHECK',
+    share=Button(
+        file='./assets/share/base/page/TASKS_CHECK.png',
+        area=(714, 16, 748, 48),
+        search=(694, 0, 768, 68),
+        color=(170, 176, 185),
+        button=(714, 16, 748, 48),
     ),
 )
 TEAM_CHECK = ButtonWrapper(
@@ -425,6 +715,26 @@ TUTORIAL_CHECK = ButtonWrapper(
         search=(24, 10, 90, 76),
         color=(141, 126, 99),
         button=(44, 30, 70, 56),
+    ),
+)
+WEAPONRY_CHECK = ButtonWrapper(
+    name='WEAPONRY_CHECK',
+    share=Button(
+        file='./assets/share/base/page/WEAPONRY_CHECK.png',
+        area=(1164, 627, 1202, 659),
+        search=(1144, 607, 1222, 679),
+        color=(69, 50, 71),
+        button=(1164, 627, 1202, 659),
+    ),
+)
+WITCHES_CHECK = ButtonWrapper(
+    name='WITCHES_CHECK',
+    share=Button(
+        file='./assets/share/base/page/WITCHES_CHECK.png',
+        area=(19, 625, 81, 682),
+        search=(0, 605, 101, 702),
+        color=(83, 88, 90),
+        button=(19, 625, 81, 682),
     ),
 )
 WORLD_CHECK = ButtonWrapper(

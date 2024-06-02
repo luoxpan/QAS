@@ -7,7 +7,7 @@ server = 'CN-Official'
 
 VALID_LANG = ['cn', 'en']
 VALID_SERVER = {
-    'CN-Official': 'com.miHoYo.hkrpg',
+    'CN-Official': 'com.bilibili.qnzl.bili',
     'CN-Bilibili': 'com.miHoYo.hkrpg.bilibili',
     'OVERSEA-America': 'com.HoYoverse.hkrpgoversea',
     'OVERSEA-Asia': 'com.HoYoverse.hkrpgoversea',

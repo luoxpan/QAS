@@ -8,12 +8,15 @@ class ManualConfig:
     def LANG(self):
         return server.lang
 
+    # SCHEDULER_PRIORITY = """
+    # Restart
+    # > BattlePass > DailyQuest > Assignment
+    # > Freebies > DataUpdate
+    # > Weekly > Dungeon
+    # > Rogue
+    # """
     SCHEDULER_PRIORITY = """
     Restart
-    > BattlePass > DailyQuest > Assignment
-    > Freebies > DataUpdate
-    > Weekly > Dungeon
-    > Rogue
     """
 
     """

@@ -8,17 +8,17 @@ LOGIN_CONFIRM = ButtonWrapper(
     share=[
         Button(
             file='./assets/share/login/LOGIN_CONFIRM.png',
-            area=(1188, 44, 1220, 74),
-            search=(1168, 24, 1240, 94),
-            color=(140, 124, 144),
-            button=(683, 327, 1143, 620),
+            area=(1191, 71, 1230, 113),
+            search=(1171, 51, 1250, 133),
+            color=(193, 193, 193),
+            button=(446, 515, 833, 555),
         ),
         Button(
             file='./assets/share/login/LOGIN_CONFIRM.2.png',
             area=(1109, 48, 1139, 73),
             search=(1089, 28, 1159, 93),
             color=(149, 145, 164),
-            button=(683, 327, 1143, 620),
+            button=(446, 515, 833, 555),
         ),
     ],
 )
@@ -26,10 +26,10 @@ LOGIN_LOADING = ButtonWrapper(
     name='LOGIN_LOADING',
     share=Button(
         file='./assets/share/login/LOGIN_LOADING.png',
-        area=(1103, 599, 1119, 616),
-        search=(1083, 579, 1139, 636),
-        color=(98, 98, 106),
-        button=(1103, 599, 1119, 616),
+        area=(1075, 609, 1100, 633),
+        search=(1055, 589, 1120, 653),
+        color=(213, 214, 214),
+        button=(1075, 609, 1100, 633),
     ),
 )
 USER_AGREEMENT_ACCEPT = ButtonWrapper(
