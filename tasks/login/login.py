@@ -59,15 +59,17 @@ class Login(UI, LoginAndroidCloud):
             if self.appear_then_click(LOGIN_CONFIRM):
                 login_success = True
                 continue
-            if self.appear_then_click(USER_AGREEMENT_ACCEPT):
-                continue
+            # if self.appear_then_click(USER_AGREEMENT_ACCEPT):
+            #     continue
             # Additional
-            if self.handle_popup_single():
+            if self.handle_popup_dice():
                 continue
-            if self.handle_popup_confirm():
-                continue
-            if self.ui_additional():
-                continue
+            # if self.handle_popup_single():
+            #     continue
+            # if self.handle_popup_confirm():
+            #     continue
+            # if self.ui_additional():
+            #     continue
 
         return True
 

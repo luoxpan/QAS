@@ -106,6 +106,16 @@ POPUP_CONFIRM = ButtonWrapper(
         button=(767, 531, 862, 567),
     ),
 )
+POPUP_DICE = ButtonWrapper(
+    name='POPUP_DICE',
+    share=Button(
+        file='./assets/share/base/popup/POPUP_DICE.png',
+        area=(1109, 535, 1189, 597),
+        search=(1089, 515, 1209, 617),
+        color=(173, 165, 179),
+        button=(1109, 535, 1189, 597),
+    ),
+)
 POPUP_SINGLE = ButtonWrapper(
     name='POPUP_SINGLE',
     share=Button(

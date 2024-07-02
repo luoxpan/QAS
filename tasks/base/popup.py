@@ -85,6 +85,20 @@ class PopupHandler(ModuleBase):
             return True
 
         return False
+    def handle_popup_dice(self, interval=2) -> bool:
+        """
+        Popup with dice roll.
+
+        Args:
+            interval:
+
+        Returns:
+            If handled.
+        """
+        if self.appear_then_click(POPUP_DICE, interval=interval):
+            return True
+
+        return False
 
     def handle_popup_cancel(self, interval=2) -> bool:
         """
