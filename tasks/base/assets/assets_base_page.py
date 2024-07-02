@@ -104,10 +104,10 @@ CHECK_MAIN = ButtonWrapper(
     name='CHECK_MAIN',
     share=Button(
         file='./assets/share/base/page/CHECK_MAIN.png',
-        area=(1095, 24, 1110, 58),
-        search=(1075, 4, 1130, 78),
-        color=(197, 193, 194),
-        button=(1095, 24, 1110, 58),
+        area=(1089, 25, 1116, 56),
+        search=(1069, 5, 1136, 76),
+        color=(211, 210, 209),
+        button=(1089, 25, 1116, 56),
     ),
 )
 CHECK_MEDAL = ButtonWrapper(
