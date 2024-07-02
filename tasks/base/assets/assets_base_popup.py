@@ -52,9 +52,9 @@ GET_REWARD = ButtonWrapper(
     share=[
         Button(
             file='./assets/share/base/popup/GET_REWARD.png',
-            area=(625, 95, 655, 119),
-            search=(605, 75, 675, 139),
-            color=(213, 0, 0),
+            area=(1005, 73, 1029, 101),
+            search=(985, 53, 1049, 121),
+            color=(133, 166, 90),
             button=(741, 495, 1071, 644),
         ),
         Button(
@@ -114,6 +114,36 @@ POPUP_DICE = ButtonWrapper(
         search=(1089, 515, 1209, 617),
         color=(173, 165, 179),
         button=(1109, 535, 1189, 597),
+    ),
+)
+POPUP_DICE_REWARD = ButtonWrapper(
+    name='POPUP_DICE_REWARD',
+    share=Button(
+        file='./assets/share/base/popup/POPUP_DICE_REWARD.png',
+        area=(586, 195, 695, 226),
+        search=(566, 175, 715, 246),
+        color=(109, 115, 141),
+        button=(586, 195, 695, 226),
+    ),
+)
+POPUP_GET_REWARD = ButtonWrapper(
+    name='POPUP_GET_REWARD',
+    share=Button(
+        file='./assets/share/base/popup/POPUP_GET_REWARD.png',
+        area=(585, 213, 693, 226),
+        search=(565, 193, 713, 246),
+        color=(143, 142, 162),
+        button=(585, 213, 693, 226),
+    ),
+)
+POPUP_NEWS_CLOSE = ButtonWrapper(
+    name='POPUP_NEWS_CLOSE',
+    share=Button(
+        file='./assets/share/base/popup/POPUP_NEWS_CLOSE.png',
+        area=(1218, 60, 1262, 100),
+        search=(1198, 40, 1280, 120),
+        color=(40, 39, 39),
+        button=(1218, 60, 1262, 100),
     ),
 )
 POPUP_SINGLE = ButtonWrapper(
