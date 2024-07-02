@@ -118,14 +118,14 @@ class MainPage(PopupHandler):
         #         MainPage._lang_check_success = True
         #         return lang
 
-        if lang_unknown:
-            logger.critical('Cannot detect in-game text language, please set it to 简体中文 or English')
-            raise RequestHumanTakeover
-        else:
-            logger.warning(f'Cannot detect in-game text language, assume current lang={server.lang} is correct')
-            MainPage._lang_checked = True
-            MainPage._lang_check_success = False
-            return server.lang
+        # if lang_unknown:
+        #     logger.critical('Cannot detect in-game text language, please set it to 简体中文 or English')
+        #     raise RequestHumanTakeover
+        # else:
+        #     logger.warning(f'Cannot detect in-game text language, assume current lang={server.lang} is correct')
+        #     MainPage._lang_checked = True
+        #     MainPage._lang_check_success = False
+        #     return server.lang
 
     def handle_lang_check(self, page: Page):
         """

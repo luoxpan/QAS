@@ -26,7 +26,7 @@ class UI(MainPage):
             interval:
         """
         if page == page_main:
-            return True
+            return self.is_in_main()
         return self.appear(page.check_button, interval=interval)
 
     def ui_get_current_page(self, skip_first_screenshot=True):
@@ -90,12 +90,12 @@ class UI(MainPage):
             if self.ui_additional():
                 timeout.reset()
                 continue
-            if self.handle_popup_single():
-                timeout.reset()
-                continue
-            if self.handle_popup_confirm():
-                timeout.reset()
-                continue
+            # if self.handle_popup_single():
+            #     timeout.reset()
+            #     continue
+            # if self.handle_popup_confirm():
+            #     timeout.reset()
+            #     continue
             if self.appear_then_click(LOGIN_CONFIRM, interval=5):
                 timeout.reset()
                 continue

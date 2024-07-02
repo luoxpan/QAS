@@ -47,6 +47,10 @@ class Login(UI, LoginAndroidCloud):
                 if self.ui_page_appear(page_main):
                     logger.info('Login to main confirm')
                     break
+                else:
+                    logger.info('Game not started yet')
+            else:
+                logger.info('Game starting, waiting for 5s')
 
             # Watch resource downloading and loading
             if self.appear(LOGIN_LOADING, interval=5):
