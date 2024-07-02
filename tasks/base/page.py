@@ -108,7 +108,7 @@ page_store.link(ANY_BACKTO_MAIN, destination=page_main)
 page_main.link(MAIN_GOTO_STORE, destination=page_store)
 
 # BATTLE 战斗
-page_battle = Page(CHECK_BATTLE)
+page_battle = Page(CHECK_BATTALE)
 page_battle.link(ANY_BACKTO_MAIN, destination=page_main)
 page_main.link(MAIN_GOTO_BATTLE, destination=page_battle)
 

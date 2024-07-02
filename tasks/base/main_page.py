@@ -95,26 +95,28 @@ class MainPage(PopupHandler):
         return None
 
     def check_lang_from_map_plane(self) -> str | None:
-        logger.info('check_lang_from_map_plane')
-        lang_unknown = self.config.Emulator_GameLanguage == 'auto'
+        lang='cn'
+        return lang
+        # logger.info('check_lang_from_map_plane')
+        # lang_unknown = self.config.Emulator_GameLanguage == 'auto'
 
-        if lang_unknown:
-            lang_list = VALID_LANG
-        else:
-            # Try current lang first
-            lang_list = [server.lang] + [lang for lang in VALID_LANG if lang != server.lang]
+        # if lang_unknown:
+        #     lang_list = VALID_LANG
+        # else:
+        #     # Try current lang first
+        #     lang_list = [server.lang] + [lang for lang in VALID_LANG if lang != server.lang]
 
-        for lang in lang_list:
-            logger.info(f'Try ocr in lang {lang}')
-            keyword = self.update_plane(lang)
-            if keyword is not None:
-                logger.info(f'check_lang_from_map_plane matched lang: {lang}')
-                if lang_unknown or lang != server.lang:
-                    self.config.Emulator_GameLanguage = lang
-                    server.set_lang(lang)
-                MainPage._lang_checked = True
-                MainPage._lang_check_success = True
-                return lang
+        # for lang in lang_list:
+        #     logger.info(f'Try ocr in lang {lang}')
+        #     keyword = self.update_plane(lang)
+        #     if keyword is not None:
+        #         logger.info(f'check_lang_from_map_plane matched lang: {lang}')
+        #         if lang_unknown or lang != server.lang:
+        #             self.config.Emulator_GameLanguage = lang
+        #             server.set_lang(lang)
+        #         MainPage._lang_checked = True
+        #         MainPage._lang_check_success = True
+        #         return lang
 
         if lang_unknown:
             logger.critical('Cannot detect in-game text language, please set it to 简体中文 or English')

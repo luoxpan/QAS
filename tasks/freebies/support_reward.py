@@ -2,7 +2,7 @@ from module.base.timer import Timer
 from module.logger import logger
 from tasks.base.assets.assets_base_page import CHECK_MAIN,CHECK_STORE,MAIN_GOTO_STORE
 from tasks.base.assets.assets_base_popup import POPUP_GET_REWARD
-from tasks.base.page import page_menu
+from tasks.base.page import page_main
 from tasks.base.ui import UI
 from module.ocr.ocr import DigitCounter
 from tasks.freebies.assets.assets_freebies_support_reward import (
@@ -19,7 +19,7 @@ class SupportReward(UI):
         Run get support reward task
         """
         logger.hr('Support reward', level=1)
-        self.ui_ensure(page_menu)
+        self.ui_ensure(page_main)
         self._goto_friendship()
         # self._goto_profile()
         self._get_reward()
