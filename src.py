@@ -2,7 +2,7 @@ from module.alas import AzurLaneAutoScript
 from module.logger import logger
 
 
-class StarRailCopilot(AzurLaneAutoScript):
+class QnzlAutoScript(AzurLaneAutoScript):
     def restart(self):
         from tasks.login.login import Login
         Login(self.config, device=self.device).app_restart()
@@ -38,6 +38,10 @@ class StarRailCopilot(AzurLaneAutoScript):
         from tasks.daily.daily_quest import DailyQuestUI
         DailyQuestUI(config=self.config, device=self.device).run()
 
+    def daily_task(self):
+        from tasks.daily_task.daily_task import DailyTask
+        DailyTask(config=self.config, device=self.device).run()
+        
     def battle_pass(self):
         from tasks.battle_pass.battle_pass import BattlePassUI
         BattlePassUI(config=self.config, device=self.device).run()
@@ -72,5 +76,5 @@ class StarRailCopilot(AzurLaneAutoScript):
 
 
 if __name__ == '__main__':
-    src = StarRailCopilot('src')
-    src.loop()
+    qas = QnzlAutoScript('src')
+    qas.loop()

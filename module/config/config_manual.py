@@ -17,6 +17,7 @@ class ManualConfig:
     # """
     SCHEDULER_PRIORITY = """
     Restart
+    > DailyTask
     """
 
     """
